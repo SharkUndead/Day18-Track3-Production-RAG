@@ -1,3 +1,18 @@
 [
-  {"question": "hihi cả nhà tự tạo testset bằng cơm nhé", "ground_truth": "Không kịp tạo luôn"},
+  {
+    "question": "Nhân viên chính thức được nghỉ phép bao nhiêu ngày một năm?",
+    "ground_truth": "Nhân viên chính thức được nghỉ phép năm 12 ngày làm việc mỗi năm."
+  },
+  {
+    "question": "Thâm niên bao nhiêu năm thì được cộng thêm ngày nghỉ phép?",
+    "ground_truth": "Cứ mỗi 5 năm làm việc liên tục sẽ được cộng thêm 1 ngày nghỉ phép năm."
+  },
+  {
+    "question": "Kết hôn thì được nghỉ bao nhiêu ngày?",
+    "ground_truth": "Kết hôn được nghỉ 3 ngày và hưởng nguyên lương."
+  },
+  {
+    "question": "Quy trình đăng ký nghỉ phép từ 3 ngày trở lên như thế nào?",
+    "ground_truth": "Nhân viên cần đăng ký ít nhất 1 tuần trước ngày nghỉ đối với nghỉ phép từ 3 ngày trở lên."
+  }
 ]
