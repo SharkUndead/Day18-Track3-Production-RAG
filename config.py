@@ -3,11 +3,23 @@
 import os
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(override=True)
 
 # --- API Keys ---
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
+
+# Debug print (Có thể xóa sau khi verify)
+if OPENAI_API_KEY:
+    masked_key = OPENAI_API_KEY[:7] + "..." + OPENAI_API_KEY[-4:] if len(OPENAI_API_KEY) > 10 else "too short"
+    print(f"[Config] Loaded OPENAI_API_KEY: {masked_key}")
+else:
+    print("[Config] WARNING: OPENAI_API_KEY is empty!")
 COHERE_API_KEY = os.getenv("COHERE_API_KEY", "")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
+
+# --- LLM Models ---
+OPENAI_MODEL_GEN = "gpt-4o-mini"
+OPENAI_MODEL_EVAL = "gpt-4o-mini"
 
 # --- Qdrant ---
 QDRANT_HOST = "localhost"

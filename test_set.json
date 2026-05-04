@@ -1,3 +1,82 @@
 [
-  {"question": "hihi cả nhà tự tạo testset bằng cơm nhé", "ground_truth": "Không kịp tạo luôn"},
+  {
+    "question": "Nhân viên chính thức được nghỉ phép bao nhiêu ngày một năm?",
+    "ground_truth": "Nhân viên chính thức được nghỉ phép năm 12 ngày làm việc mỗi năm."
+  },
+  {
+    "question": "Thâm niên bao nhiêu năm thì được cộng thêm ngày nghỉ phép?",
+    "ground_truth": "Cứ mỗi 5 năm làm việc liên tục cho công ty thì nhân viên được cộng thêm 1 ngày nghỉ phép năm."
+  },
+  {
+    "question": "Kết hôn thì được nghỉ bao nhiêu ngày?",
+    "ground_truth": "Kết hôn được nghỉ 3 ngày và hưởng nguyên lương."
+  },
+  {
+    "question": "Quy trình đăng ký nghỉ phép từ 3 ngày trở lên như thế nào?",
+    "ground_truth": "Nhân viên cần đăng ký ít nhất 1 tuần trước ngày nghỉ đối với nghỉ phép từ 3 ngày trở lên."
+  },
+  {
+    "question": "Con kết hôn thì nhân viên được nghỉ bao nhiêu ngày?",
+    "ground_truth": "Con kết hôn thì nhân viên được nghỉ 1 ngày hưởng nguyên lương."
+  },
+  {
+    "question": "Bố đẻ, mẹ đẻ mất thì được nghỉ bao nhiêu ngày?",
+    "ground_truth": "Bố đẻ, mẹ đẻ mất thì được nghỉ 3 ngày hưởng nguyên lương."
+  },
+  {
+    "question": "Ông nội, bà nội mất thì được nghỉ bao nhiêu ngày?",
+    "ground_truth": "Ông nội, bà nội mất thì được nghỉ 1 ngày không hưởng lương (theo quy định lao động chung)."
+  },
+  {
+    "question": "Làm sao để được cấp lại mật khẩu email công ty?",
+    "ground_truth": "Nhân viên cần gửi phiếu yêu cầu hỗ trợ (IT Ticket) hoặc liên hệ trực tiếp phòng IT để được cấp lại mật khẩu."
+  },
+  {
+    "question": "Quy định về việc bảo mật máy tính xách tay công ty?",
+    "ground_truth": "Nhân viên phải cài đặt mật khẩu, không để máy tính ở nơi công cộng không có người trông coi và phải trả lại khi thôi việc."
+  },
+  {
+    "question": "Công ty có hỗ trợ chi phí ăn trưa không?",
+    "ground_truth": "Công ty cung cấp phụ cấp ăn trưa hàng tháng theo quy định trong hợp đồng lao động."
+  },
+  {
+    "question": "Thời gian làm việc chính thức của công ty là từ mấy giờ?",
+    "ground_truth": "Thời gian làm việc từ 8:00 sáng đến 17:00 chiều, nghỉ trưa từ 12:00 đến 13:00."
+  },
+  {
+    "question": "Làm việc ngày lễ, Tết được hưởng lương như thế nào?",
+    "ground_truth": "Làm việc vào ngày lễ, Tết được hưởng ít nhất 300% lương theo quy định của Luật Lao động."
+  },
+  {
+    "question": "Nhân viên thử việc có được hưởng ngày nghỉ phép năm không?",
+    "ground_truth": "Thời gian thử việc không được tính nghỉ phép ngay, nhưng sau khi ký hợp đồng chính thức, thời gian thử việc sẽ được tính vào thâm niên nghỉ phép năm."
+  },
+  {
+    "question": "Quy định về trang phục khi đi làm?",
+    "ground_truth": "Nhân viên cần mặc trang phục lịch sự, chỉnh tề phù hợp với môi trường công sở."
+  },
+  {
+    "question": "Làm sao để đăng ký tham gia các khóa đào tạo nội bộ?",
+    "ground_truth": "Nhân viên đăng ký qua cổng thông tin nhân sự hoặc thông báo trực tiếp với quản lý bộ phận."
+  },
+  {
+    "question": "Chính sách thai sản dành cho nhân viên nữ như thế nào?",
+    "ground_truth": "Nhân viên nữ được nghỉ thai sản 6 tháng và hưởng trợ cấp theo quy định của Bảo hiểm xã hội."
+  },
+  {
+    "question": "Khi bị ốm đau dài ngày, nhân viên cần nộp giấy tờ gì?",
+    "ground_truth": "Nhân viên cần nộp giấy xác nhận của cơ sở y tế có thẩm quyền (Giấy nghỉ hưởng BHXH) cho phòng Nhân sự."
+  },
+  {
+    "question": "Yêu cầu cấp mới thiết bị làm việc (chuột, bàn phím) như thế nào?",
+    "ground_truth": "Nhân viên tạo ticket trên hệ thống quản lý tài sản hoặc gửi email cho bộ phận Hành chính - IT."
+  },
+  {
+    "question": "Nhân viên nghỉ việc cần báo trước bao lâu?",
+    "ground_truth": "Đối với hợp đồng không xác định thời hạn, nhân viên cần báo trước ít nhất 45 ngày."
+  },
+  {
+    "question": "Công ty có chế độ bảo hiểm sức khỏe tự nguyện không?",
+    "ground_truth": "Ngoài BHXH bắt buộc, công ty cung cấp gói bảo hiểm sức khỏe cao cấp cho nhân viên có thâm niên từ 1 năm trở lên."
+  }
 ]

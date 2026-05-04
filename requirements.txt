@@ -1,0 +1,30 @@
+
+# RAG Core & LLM
+langchain>=0.1.0
+langchain-openai
+openai
+
+# Vector DB
+qdrant-client
+
+# Evaluation
+ragas
+datasets
+
+# Embeddings & Reranking
+FlagEmbedding
+
+# Vietnamese NLP
+underthesea
+
+# BM25 Search
+rank_bm25
+
+# Testing & Formatting
+pytest
+ruff
+
+# Utils
+python-dotenv
+pymupdf
+langchain-groq
